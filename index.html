@@ -1,56 +1,81 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
   <title>PDF Key</title>
-  <style>
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #102033; background: #f7fbff; line-height: 1.65; }
-    main { max-width: 860px; margin: 0 auto; padding: 56px 22px; }
-    h1 { font-size: clamp(36px, 7vw, 64px); line-height: 1.08; margin: 0 0 16px; }
-    h2 { margin-top: 42px; font-size: 26px; }
-    .lead { font-size: 20px; color: #36566f; }
-    .card { background: #fff; border: 1px solid #d8e6f2; border-radius: 14px; padding: 24px; margin: 22px 0; }
-    .links a { display: inline-block; margin: 8px 14px 8px 0; color: #0b66c3; font-weight: 600; }
-    ul { padding-left: 22px; }
-    footer { margin-top: 44px; color: #6b7c8f; font-size: 14px; }
-  </style>
+  <meta name="description" content="PDF Keyは、iPhone上でPDFに開くパスワードを設定できるシンプルなアプリです。PDFは端末内で処理され、アップロードされません。">
+  <link rel="stylesheet" href="./assets/site.css">
 </head>
 <body>
-<main>
-  <h1>PDF Key</h1>
-  <p class="lead">Password Lock for PDFs / パスワードでPDFを保護</p>
+  <main>
+    <header class="site-header">
+      <a class="brand" href="./">PDF Key</a>
+      <nav aria-label="PDF Key">
+        <a class="store-link" href="https://apps.apple.com/us/app/pdf-key/id6782367129">App Store</a>
+        <a href="./support.html">サポート</a>
+        <a href="./privacy.html">プライバシーポリシー</a>
+        <a href="https://happitopia-dev.github.io/">Happitopia</a>
+      </nav>
+    </header>
 
-  <section class="card">
-    <h2>English</h2>
-    <p>PDF Key is a simple iPhone app for protecting PDF files with a password. Choose a PDF, enter a new password, and save or share the protected PDF.</p>
-    <ul>
-      <li>On-device processing</li>
-      <li>No uploads</li>
-      <li>No account</li>
-      <li>No ads or analytics</li>
-      <li>Supports opening already protected PDFs when you know the current password</li>
-    </ul>
-  </section>
+    <section class="hero" aria-labelledby="main-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Password Lock for PDFs</p>
+        <h1 id="main-title">送る前のPDFに、すぐ鍵をかける。</h1>
+        <p class="lead">PDF Keyは、PDFを選び、パスワードを入力し、保存または共有するためのiPhoneアプリです。余計な編集機能を挟まず、必要な保護だけをすばやく終えられます。</p>
+        <div class="actions">
+          <a class="primary-action" href="https://apps.apple.com/us/app/pdf-key/id6782367129">App Storeで見る</a>
+          <a href="./support.html">サポートを見る</a>
+          <a href="./privacy.html">プライバシーポリシー</a>
+        </div>
+      </div>
+      <div class="phone-stage" aria-label="PDF Key screenshots">
+        <img class="phone primary" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/31/cc/4d31cc54-0cee-faba-8c77-1879185ce8c9/en_01_password_lock.png/600x1300bb.webp" alt="PDF Keyのパスワード設定画面">
+        <img class="phone secondary" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/ac/7d/a3ac7df9-092b-8b99-a8d4-677f4f78b11c/en_02_open_protected.png/600x1300bb.webp" alt="PDF Keyで保護されたPDFを開く画面">
+      </div>
+    </section>
 
-  <section class="card">
-    <h2>日本語</h2>
-    <p>PDF Keyは、PDFに開くためのパスワードを設定するだけのシンプルなiPhoneアプリです。PDFを選び、新しいパスワードを入力して、パスワード付きPDFとして保存または共有できます。</p>
-    <ul>
-      <li>端末内処理</li>
-      <li>アップロードなし</li>
-      <li>アカウント不要</li>
-      <li>広告・解析なし</li>
-      <li>現在のパスワードが分かる場合、パスワード付きPDFの読み込みにも対応</li>
-    </ul>
-  </section>
+    <section class="feature-grid" aria-label="PDF Keyの特徴">
+      <article>
+        <h2>迷わない3ステップ</h2>
+        <p>PDFを選択し、新しいパスワードを入力し、パスワード付きPDFとして保存または共有します。</p>
+      </article>
+      <article>
+        <h2>ファイルは手元に</h2>
+        <p>PDFやパスワードをHappitopiaのサーバーへアップロードしません。</p>
+      </article>
+      <article>
+        <h2>送付前のひと手間に</h2>
+        <p>見積書、控え、配布資料など、共有前に「開くパスワード」を付けたい場面に向いています。</p>
+      </article>
+    </section>
 
-  <p class="links">
-    <a href="support.html">Support / サポート</a>
-    <a href="privacy.html">Privacy Policy / プライバシーポリシー</a>
-  </p>
+    <section class="install-panel">
+      <div>
+        <p class="eyebrow">Install</p>
+        <h2>PDFを守る作業を、いつもの共有フローに。</h2>
+        <p>iPhoneのファイル選択や共有から使いやすい、軽いPDF保護アプリです。</p>
+      </div>
+      <a class="primary-action" href="https://apps.apple.com/us/app/pdf-key/id6782367129">App Storeで見る</a>
+    </section>
 
-  <footer>© 2026 Happitopia</footer>
-</main>
+    <section class="two-column">
+      <div>
+        <h2>English</h2>
+        <p>PDF Key is a simple iPhone app for protecting PDF files with an open password. Choose a PDF, enter a password, then save or share the protected file.</p>
+      </div>
+      <div>
+        <h2>日本語</h2>
+        <p>PDF Keyは、PDFに開くためのパスワードを設定するだけのシンプルなiPhoneアプリです。アカウント作成は不要です。</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Happitopia</p>
+      <a href="mailto:contact.tabitabijourney@gmail.com">contact.tabitabijourney@gmail.com</a>
+    </footer>
+  </main>
 </body>
 </html>
